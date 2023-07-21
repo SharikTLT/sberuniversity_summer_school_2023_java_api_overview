@@ -35,6 +35,17 @@ public class Part1_Collections {
             System.out.printf("Элемент списка: %s%n", element);
         }
 
+        for (int i = 0; i < stringList.size(); i++) {
+            String element = stringList.get(i);
+        }
+
+        Iterator<String> iterator = stringList.iterator();
+        while (iterator.hasNext()){
+            String element = iterator.next();
+            //stringList.remove(element);
+            ///
+        }
+
         System.out.printf("%n%n%n");
     }
 

@@ -17,7 +17,7 @@ public class Part5_Math {
 
         System.out.printf("Число Эйлера в степени 3 = %s %n", exp(3));
 
-        System.out.printf("Логарифм 10 по основанию 10 = %s %n", log10(100));
+        System.out.printf("Логарифм 10 по основанию 10 = %s %s %n", log10(100), "asd");
         System.out.printf("Натуральный логарифм 0.5 = %s %n", log(0.5));
         System.out.printf("Натуральный логарифм 0.5 + 1 = %s %n", log1p(0.5));
 
